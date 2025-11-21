@@ -30,6 +30,6 @@ seaborn
 # Optional (but recommended for stability)
 python-multipart
 
-# py -3.12 -m uvicorn api_backend:app --reload
+# py -3.12 -m uvicorn api_backend_auth:app --reload
 
-# py -3.12 -m streamlit run streamlit_app.py
+# py -3.12 -m streamlit run streamlit_white_portal.py
