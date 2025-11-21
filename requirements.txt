@@ -1,0 +1,35 @@
+# Core Python libs
+numpy
+pillow
+joblib
+requests
+
+# # Deep Learning
+# torch
+# torchvision
+# torchaudio
+# timm
+
+# Image Processing
+opencv-python
+albumentations
+albumentations[imgaug]
+
+# Backend
+fastapi
+uvicorn[standard]
+
+# Frontend
+streamlit
+
+# Utilities
+scikit-learn
+matplotlib
+seaborn
+
+# Optional (but recommended for stability)
+python-multipart
+
+# py -3.12 -m uvicorn api_backend:app --reload
+
+# py -3.12 -m streamlit run streamlit_app.py
